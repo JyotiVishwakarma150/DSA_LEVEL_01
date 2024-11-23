@@ -1,6 +1,6 @@
 package _03_Function;
 import java.util.Scanner;
-public class nPr {
+public class _01_nPr {
     public static void display(int n,int r,int npr){
         System.out.println(n + " p " + r + " = " + npr);
     }
