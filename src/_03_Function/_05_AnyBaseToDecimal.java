@@ -1,6 +1,6 @@
 package _03_Function;
 import java.util.Scanner;
-public class AnyBaseToDecimal {
+public class _05_AnyBaseToDecimal {
     public static void main(String[] args) {
        Scanner scn = new Scanner(System.in);
        int n = scn.nextInt();
