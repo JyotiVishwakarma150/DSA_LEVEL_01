@@ -2,7 +2,7 @@ package _03_Function;
 
 import java.util.Scanner;
 
-public class FrequencyOfNumber {
+public class _02_FrequencyOfNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n= scn.nextInt();
