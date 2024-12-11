@@ -1,6 +1,5 @@
-package _06_Queue;
+package _07_Queue;
 import java.io.*;
-import java.util.*;
 
 public class _02_NormalQueue {
 
