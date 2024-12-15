@@ -1,8 +1,7 @@
 package _08_LinkedLists;
 import java.io.*;
-import java.util.*;
 
-public class _09_ReverseALL {
+public class _09_ReverseLL_DI {
     public static class Node {
         int data;
         Node next;
