@@ -292,7 +292,7 @@ public class _17_RemoveDuplicates {
                     res.addLast(val);
                 }
             }
-            this.head = res.head;
+            this.head = res.head; // isiliye kyuki operations ke baad head tail size mein 0 and null aa jygea isiliye res m stored kr diya gya
             this.tail = res.tail;
             this.size = res.size;
         }
