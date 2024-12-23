@@ -48,6 +48,7 @@ public class _02_MatrixMultiplication{
                 }
             System.out.println();
             }
-    }
 
-}
+        }
+
+    }
