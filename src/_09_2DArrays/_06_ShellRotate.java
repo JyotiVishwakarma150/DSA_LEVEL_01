@@ -70,7 +70,7 @@ public class _06_ShellRotate {
         }
         //bw
         for (int i = maxr, j = minc + 1; j <= maxc; j++) {
-            oned[idx] = arr[i][j];
+            arr[i][j] = oned[idx];
             idx++;
         }
         //rw
