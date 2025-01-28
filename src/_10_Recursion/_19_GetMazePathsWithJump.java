@@ -37,7 +37,7 @@ public class _19_GetMazePathsWithJump {
             }
         }
         // diagonal moves
-        for(int ms =1;ms<=dc-sc && ms<= dc-sc;ms++) {
+        for(int ms =1;ms<=dr-sr && ms<= dc-sc;ms++) {
             ArrayList<String> dpaths = getMazePaths(sr+ms, sc + ms, dr, dc);
             for (String dpath : dpaths) {
                 paths.add("d" + ms + dpath);
