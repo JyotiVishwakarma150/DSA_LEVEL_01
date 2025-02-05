@@ -29,10 +29,10 @@ public class _27_FloodFill {
            return;
        }
        visited[row][col] = true;//jate huye visted mtlb jis dabbe mein ja chuke hai uspr ik tik lg jayega
-       floodfill(maze,row-1,col,asf+"t",visited);
-       floodfill(maze,row,col-1,asf+"l",visited);
-       floodfill(maze,row+1,col,asf+"d",visited);
-       floodfill(maze,row,col+1,asf+"r",visited);
+       floodfill(maze,row-1,col,asf+"t",visited); // top
+       floodfill(maze,row,col-1,asf+"l",visited); // left
+       floodfill(maze,row+1,col,asf+"d",visited); // down
+       floodfill(maze,row,col+1,asf+"r",visited); // right
        visited[row][col] = false; // wapas aate huye visited uda dege taki dusr paths ready hoske
     }
 }
