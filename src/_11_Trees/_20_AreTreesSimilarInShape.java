@@ -47,7 +47,7 @@ public class _20_AreTreesSimilarInShape {
 
     public static boolean areSimilar(Node n1, Node n2) {
         // write your code here
-      if(n1.children.size() != n1.children.size()){ // check krta hai ki dono node ke children ke numbers equal hai ya nhi
+      if(n1.children.size() != n2.children.size()){ // check krta hai ki dono node ke children ke numbers equal hai ya nhi
           return false;
       }
       for(int i=0;i<n1.children.size();i++){ // ye loop dono nodes ke children ko ek ek krke check krta hai
