@@ -26,38 +26,38 @@ public class _31_DisplayBT {
     }
 
     public static Node construct(Integer[] arr) {
-        Node root = new Node(arr[0], null, null);
-        Pair rtp = new Pair(root, 1);
+        Node root = new Node(arr[0], null, null); // root node create hoti hai(jo array ka phla element hota hai
+        Pair rtp = new Pair(root, 1);// iska mtlb hai ki ye node abhi state 1 mein hai (left child process krna hai)
 
         Stack<Pair> st = new Stack<>();
-        st.push(rtp);
+        st.push(rtp); // stack mein ye root node push ho jata hai
 
-        int idx = 0;
-        while (st.size() > 0) {
-            Pair top = st.peek();
-            if (top.state == 1) {
-                idx++;
-                if (arr[idx] != null) {
+        int idx = 0; // ye array mein traverse krega
+        while (st.size() > 0) { // jb tkk stack non- empty hai ,tbb tk loop chlta rhega
+            Pair top = st.peek(); // stack ke top element ko peek() krke process krege
+            if (top.state == 1) { // left child process krna hai
+                idx++; // ye krke next element dekhege
+                if (arr[idx] != null) { // age null nhi hai to new node bnayege aur stack me push krdege
                     top.node.left = new Node(arr[idx], null, null);
                     Pair lp = new Pair(top.node.left, 1);
                     st.push(lp);
-                } else {
+                } else { // agr null hai to left mein null assign krdege
                     top.node.left = null;
                 }
 
-                top.state++;
-            } else if (top.state == 2) {
-                idx++;
-                if (arr[idx] != null) {
+                top.state++; // iska state 2 ho jyega (right child process ke liye)
+            } else if (top.state == 2) { // state 2 ka mtlb right child process krna hai
+                idx++; // ye krke next element k check krege
+                if (arr[idx] != null) { // agr null nhi hai to right child create hoga aur stack mein push hoga
                     top.node.right = new Node(arr[idx], null, null);
                     Pair rp = new Pair(top.node.right, 1);
                     st.push(rp);
                 } else {
-                    top.node.right = null;
+                    top.node.right = null;// agr null nhi hai to right , null assign hoga
                 }
 
-                top.state++;
-            } else {
+                top.state++; // iska state 3 ho jyega (node completely processed)
+            } else { // state 3 .... mtlb ye node poora process ho chuka hai ,ab isko stack se hta skte hain
                 st.pop();
             }
         }
@@ -93,6 +93,6 @@ public class _31_DisplayBT {
         }
 
         Node root = construct(arr);
-        System.out.println(root);
+        display(root);
     }
 }
