@@ -81,7 +81,6 @@ public class _32_SizeSumMaxHeightOfBT {
     }
 
     public static int size(Node node) {
-        // write your code here
         if(node==null){
             return 0;
         }
@@ -92,7 +91,6 @@ public class _32_SizeSumMaxHeightOfBT {
     }
 
     public static int sum(Node node) {
-        // write your code here
         if(node==null){
             return 0;
         }
@@ -103,7 +101,6 @@ public class _32_SizeSumMaxHeightOfBT {
     }
 
     public static int max(Node node) {
-        // write your code here
         if(node==null){
             return  Integer.MIN_VALUE;
         }
