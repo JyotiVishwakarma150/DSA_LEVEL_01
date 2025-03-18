@@ -16,7 +16,7 @@ public class _40_PrintKLevelsDown {
         }
 
         public static class Pair {
-            Node node;
+            Node node; //
             int state;
 
             Pair(Node node, int state) {
