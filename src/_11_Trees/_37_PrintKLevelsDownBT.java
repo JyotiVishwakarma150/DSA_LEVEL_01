@@ -2,7 +2,7 @@ package _11_Trees;
 import java.io.*;
 import java.util.*;
 
-public class _40_PrintKLevelsDown {
+public class _37_PrintKLevelsDownBT {
         public static class Node {
             int data;
             Node left;
