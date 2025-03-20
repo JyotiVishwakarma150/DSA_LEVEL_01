@@ -2,7 +2,7 @@ package _11_Trees;
 import java.io.*;
 import java.util.*;
 
-public class _42_PathToLeafFromRoot {
+public class _39_PathToLeafFromRootBT {
     public static class Node {
         int data;
         Node left;
