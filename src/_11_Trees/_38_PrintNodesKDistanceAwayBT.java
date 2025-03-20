@@ -2,7 +2,7 @@ package _11_Trees;
 import java.io.*;
 import java.util.*;
 
-public class _41_PrintNodesKDistanceAway {
+public class _38_PrintNodesKDistanceAwayBT {
     public static class Node {
         int data;
         Node left;
