@@ -2,7 +2,7 @@ package _11_Trees;
 import java.io.*;
 import java.util.*;
 
-public class _36_FindAndNodeToRootPath  {
+public class _36_FindAndNodeToRootPathBT {
     public static class Node {
         int data;
         Node left;
