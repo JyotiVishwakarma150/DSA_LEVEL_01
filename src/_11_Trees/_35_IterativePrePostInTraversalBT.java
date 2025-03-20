@@ -2,7 +2,7 @@ package _11_Trees;
 import java.io.*;
 import java.util.*;
 
-public class _35_IterativePrePostInTraversal{
+public class _35_IterativePrePostInTraversalBT {
     public static class Node {
         int data;
         Node left;
