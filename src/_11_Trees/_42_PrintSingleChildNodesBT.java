@@ -2,7 +2,7 @@ package _11_Trees;
 import java.io.*;
 import java.util.*;
 
-public class _42_PrintSingleChildNodes{
+public class _42_PrintSingleChildNodesBT {
     public static class Node {
         int data;
         Node left;
