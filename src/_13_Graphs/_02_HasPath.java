@@ -1,7 +1,7 @@
 package _13_Graphs;
 import java.io.*;
 import java.util.*;
-public class _01_HasPath {
+public class _02_HasPath {
     static class Edge {
         int src;
         int nbr;
