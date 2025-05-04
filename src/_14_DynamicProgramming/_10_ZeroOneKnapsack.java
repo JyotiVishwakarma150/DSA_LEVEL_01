@@ -7,12 +7,12 @@ public class _10_ZeroOneKnapsack {
         Scanner scn = new Scanner(System.in);
         int n= scn.nextInt();
         int[] vals=new int[n];
-        int[] cuts = new int[n];
+        int[] wts = new int[n];
         for(int i=0;i<vals.length;i++){
             vals[i]=scn.nextInt();
         }
-        for(int i=0;i<cuts.length;i++){
-            cuts[i]=scn.nextInt();
+        for(int i=0;i<wts.length;i++){
+            wts[i]=scn.nextInt();
         }
         int cap =scn.nextInt();
         int[][] dp = new int[n+1][cap+1];
@@ -21,8 +21,8 @@ public class _10_ZeroOneKnapsack {
                 //Agar item i-1 ka weight cuts[i-1] current capacity j se kam ya equal hai, toh:
                 //Remainder capacity = j - weight
                 //Ab check karenge: agar item lo toh better hai ya na lo
-                if(j>=cuts[i-1]){
-                    int rcap = j-cuts[i-1];
+                if(j>=wts[i-1]){
+                    int rcap = j-wts[i-1];
                     if(dp[i-1][rcap]+vals[i-1]>dp[i-1][j]){//Item lete hain
                         dp[i][j] = dp[i-1][rcap]+vals[i-1];
                     }else{
