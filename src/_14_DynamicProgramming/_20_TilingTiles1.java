@@ -2,7 +2,7 @@ package _14_DynamicProgramming;
 
 import java.util.Scanner;
 
-public interface _20_TilingWith2mulby1Tiles {
+public interface _20_TilingTiles1 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
