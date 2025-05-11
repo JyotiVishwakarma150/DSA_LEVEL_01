@@ -2,7 +2,7 @@ package _14_DynamicProgramming;
 
 import java.util.Scanner;
 
-public class _21_TilingWithMmulby1Tiles {
+public class _21_TilingTiles2 {
     public static void main(String[] args) throws Exception {
       Scanner scn = new Scanner(System.in);
       int n = scn.nextInt();
