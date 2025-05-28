@@ -2,8 +2,8 @@ package _16_TimeAndSpace.java;
 import java.io.*;
 import java.util.*;
 public class _01_BubbleSort {
-
     public static void bubbleSort(int[] arr) {
+        //for n input the number of iterations will be n-1
         for(int itr =1;itr<=arr.length-1;itr++){
             for(int j=0;j<arr.length-itr;j++){
                 if(isSmaller(arr,j+1,j)){
