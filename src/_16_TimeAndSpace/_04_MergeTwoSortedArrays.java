@@ -1,4 +1,4 @@
-package _16_TimeAndSpace.java;
+package _16_TimeAndSpace;
 import java.io.*;
 import java.util.*;
 public class _04_MergeTwoSortedArrays {
