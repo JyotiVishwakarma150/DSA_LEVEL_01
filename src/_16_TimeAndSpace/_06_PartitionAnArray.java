@@ -8,6 +8,7 @@ public class _06_PartitionAnArray {
         // i to end -> unknown
         int i=0;
         int j=0;
+
         while(i< arr.length){
             if(arr[i]>pivot){
                 i++;
