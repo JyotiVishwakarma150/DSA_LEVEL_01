@@ -9,6 +9,9 @@ public class _10_RadixSort {
             if(val>max){
                 max=val;
             }
+
+
+
         }
         int exp = 1;
         while(exp<=max){
