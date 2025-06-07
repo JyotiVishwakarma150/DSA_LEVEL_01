@@ -14,7 +14,6 @@ public class _08_QuickSelect {
             return pivot;
         }
     }
-
     public static int partition(int[] arr, int pivot, int lo, int hi) {
         System.out.println("pivot -> " + pivot);
         int i = lo, j = lo;
