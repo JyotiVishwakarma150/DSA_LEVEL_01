@@ -9,9 +9,6 @@ public class _10_RadixSort {
             if(val>max){
                 max=val;
             }
-
-
-
         }
         int exp = 1;
         while(exp<=max){
@@ -20,7 +17,7 @@ public class _10_RadixSort {
         }
     }
 
-    public static void countSort(int[] arr, int exp) {
+    public static void countSort(int [] arr, int exp) {
         // write code here
         int[] ans = new int[arr.length];
         //make frequency array
