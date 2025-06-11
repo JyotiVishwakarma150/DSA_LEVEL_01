@@ -4,7 +4,6 @@ import java.util.*;
 public class _15_PivotSortedRotatedArray {
 
     public static int findPivot(int[] arr) {
-        // write your code here
         int lo=0;
         int hi=arr.length-1;
         while(lo<hi){
